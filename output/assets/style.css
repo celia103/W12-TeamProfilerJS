@@ -1,0 +1,163 @@
+/* universal CSS */
+:root {
+	--primary-color: #6699a4;
+	--secondary-color: #fffffb;
+	--headingFont-color: #ffffff;
+	--font-color: #585757;
+	--bg-color: #f8f9fa;
+	--card-color: #ffffff;
+	--border-color: #ffffff;
+	--name-color: #434343;
+	--title-color1: #9f353a;
+	--title-color2: #3a8fb7;
+	--title-color3: #5dac81;
+	--link-color: #e98b2a;
+	--slider-color: #fbe251;
+	--shadow-color: #e8e8e8;
+	--list-color: #d7c4bb;
+}
+
+[data-theme="dark"] {
+	--primary-color: #333333;
+	--secondary-color: #1d1d1d;
+	--headingFont-color: #eeeeee;
+	--font-color: #fff;
+	--bg-color: #0a0a0a;
+	--card-color: #2e2e2e;
+	--border-color: #2e2e2e;
+	--name-color: #eeeeee;
+	--title-color1: #f08a66;
+	--title-color2: #59b4ff;
+	--title-color3: #01f6ea;
+	--link-color: #ffca28;
+	--slider-color: #ff8080;
+	--shadow-color: #070707;
+	--list-color: #585757;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	line-height: 1.5;
+	background-color: var(--bg-color);
+	color: var(--font-color);
+}
+
+nav {
+	display: flex;
+	justify-content: flex-end;
+	padding: 20px 0;
+}
+
+/*slider switch css */
+.theme-switch-wrapper {
+	display: flex;
+	align-items: center;
+}
+
+.theme-switch {
+	display: inline-block;
+	position: relative;
+	margin: auto 6px;
+	width: 60px;
+	height: 34px;
+}
+
+.theme-switch input {
+	display: none;
+}
+
+.slider {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+	left: 0;
+	right: 0;
+  background-color: var(--slider-color);
+  cursor: pointer;
+	transition: 0.4s;
+}
+
+.slider:before {
+  content: "";
+  position: absolute;
+	bottom: 4px;
+	left: 4px;
+	transition: 0.4s;
+  background-color: var(--bg-color);  
+	width: 26px;
+  height: 26px;
+}
+
+input:checked + .slider {
+	background-color: var(--slider-color);
+}
+
+input:checked + .slider:before {
+	transform: translateX(26px);
+}
+
+.slider.round {
+	border-radius: 34px;
+}
+
+.slider.round:before {
+	border-radius: 50%;
+}
+
+/* cards css */
+.team-heading {
+	background-color: var(--primary-color);
+	color: var(--headingFont-color);
+}
+
+.team-area {
+	padding: 40px 20px;
+}
+
+.employee-card {
+	border-color: var(--border-color);
+	box-shadow: 2px 2px 10px var(--shadow-color);
+}
+
+.card-header {
+	padding: 20px 30px;
+	background-color: var(--secondary-color);
+}
+
+.card-name {
+	font-weight: 700;
+	color: var(--name-color);
+}
+
+.card-title-1 {
+	font-weight: 500;
+	color: var(--title-color1);
+}
+
+.card-title-2 {
+	font-weight: 500;
+	color: var(--title-color2);
+}
+
+.card-title-3 {
+	font-weight: 500;
+	color: var(--title-color3);
+}
+
+.card-body {
+	background-color: var(--card-color);
+}
+
+.card-body a {
+	color: var(--link-color);
+}
+
+.list-group-item {
+	background-color: var(--card-color);
+	border-color: var(--list-color);
+}
