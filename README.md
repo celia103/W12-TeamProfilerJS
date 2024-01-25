@@ -41,11 +41,11 @@ The generated HTML file (output/team.html) contains a stylized representation of
 - Light theme (Website version)
   ![screenshot4.png](./screencaptures/W12-TeamProfilerJS-capture4.png)
 - Light theme (mobile version)
-  ![screenshot5.png](./screencaptures/W12-TeamProfilerJS-capture5.png)
-- Dark theme (Website version)
-  ![screenshot6.png](./screencaptures/W12-TeamProfilerJS-capture6.png)
-- Dark theme (mobile version)
   ![screenshot7.png](./screencaptures/W12-TeamProfilerJS-capture7.png)
+- Dark theme (Website version)
+  ![screenshot5.png](./screencaptures/W12-TeamProfilerJS-capture5.png)
+- Dark theme (mobile version)
+  ![screenshot6.png](./screencaptures/W12-TeamProfilerJS-capture6.png)
 
 ## License
 
