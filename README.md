@@ -14,6 +14,7 @@ This is a command-line application that helps users create an HTML page to displ
 - [Generated HTML](#generated)
 - [License](#license)
 - [Features](#features)
+- [Reference](#reference)
 - [Questions](#questions)
 
 ## Installation
@@ -63,7 +64,7 @@ MIT License
 
 5. **Light/Dark Theme Switcher:** Customize the generated HTML page with a light/dark theme switcher, enhancing user experience.
 
-## Self-study Reference
+## Reference
 
 - **For Light/Dark Theme Switcher:**
   <a href=" https://dev.to/ananyaneogi/create-a-dark-light-mode-switch-with-css-variables-34l8
