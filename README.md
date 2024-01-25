@@ -38,6 +38,8 @@ Follow these steps to install the Dynamic README Generator:
 ## Generated
 
 The generated HTML file (output/team.html) contains a stylized representation of the team, with each member's details displayed in separate cards. The page is responsive and includes a light/dark theme switcher for user preference.
+The sample HTML file generated using this application:
+<a href="https://celia103.github.io/W12-TeamProfilerJS/output/team.html" target="_blank">https://celia103.github.io/W12-TeamProfilerJS/output/team.html</a>
 
 - Light theme (Website version)
   ![screenshot4.png](./screencaptures/W12-TeamProfilerJS-capture4.png)
