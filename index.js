@@ -10,8 +10,6 @@ const outputPath = path.join(OUTPUT_DIR, "team.html");
 
 const render = require("./src/page-template.js");
 
-// TODO: Write Code to gather information about the development team members, and render the HTML file.
-
 //choose what to add
 const teamMembers = [];
 
@@ -85,6 +83,7 @@ function promptManager() {
 		});
 }
 
+// array of questions for add a engineer
 function promptEngineer() {
 	inquirer
 		.prompt([
@@ -121,6 +120,7 @@ function promptEngineer() {
 		});
 }
 
+// array of questions for add a intern
 function promptIntern() {
 	inquirer
 		.prompt([
@@ -157,6 +157,7 @@ function promptIntern() {
 		});
 }
 
+// function to write HTML file
 function writeToFile(outputPath, data) {
 	fs.writeFile(outputPath, data, (err) => {
 		if (err) {
